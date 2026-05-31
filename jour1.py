@@ -31,7 +31,7 @@ def slicing(mot):
 # Demander à l'utilisateur de saisir deux mots
 nom = input("Rappelez votre nom : ")
 print(f"Ok, bienvenue {nom} !")
-mot1 = input(f"{nom}, donne un premier mot :")
+mot1 = input(f"{nom}, donne un premier mot : ")
 mot2 = input(f"{nom}, donne maintenant le second mot : ")
 print("")
 print(f"Merci, beaucoup {nom} !")
@@ -41,5 +41,9 @@ else:
     print(f"{mot1} et {mot2} ne sont pas des anagrammes.")
 print("")
 # Fin de la partie A
+
+# Partie B 
+# - Créons un repo GitHub pour ce projet et ajoutons-y ce fichier "jour1.py".
+# - Ajoutons un fichier "README.md" avec une description du projet et des instructions pour l'exécuter.
 
 
