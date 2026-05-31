@@ -35,7 +35,7 @@ print("")
 liste_courses = creer_liste_courses()
 print(f"{nom}, voici votre liste de courses : {liste_courses}") 
 
-retirer = input(f"{nom}, avez-vous un ou des articles à retirer de votre liste de courses ? (Oui/Non)")
+retirer = input(f"{nom}, avez-vous un ou des articles à retirer de votre liste de courses ? (Oui/Non) : ")
 
 if retirer.lower() == "oui":
     article_retirer = input(f"{nom}, Quel est le ou l'article à retirer ? : ")
